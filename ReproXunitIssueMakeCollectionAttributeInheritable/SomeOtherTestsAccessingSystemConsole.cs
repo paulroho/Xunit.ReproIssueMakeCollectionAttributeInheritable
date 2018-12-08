@@ -4,6 +4,7 @@ using Xunit;
 
 namespace ReproXunitIssueMakeCollectionAttributeInheritable
 {
+    //[TestsUsingSystemConsole]
     [Collection("Tests using System.Console")]
     public class SomeOtherTestsAccessingSystemConsole
     {
